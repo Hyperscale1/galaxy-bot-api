@@ -59,7 +59,8 @@ passport.use(new DiscordStrategy({
 app.listen(config.port, function() { console.log(`Listening on port ${config.port}`) });
 
 app.get('/', async function(req, res) {
-    res.redirect(`https://plutos.world/error?err=API Index page not found.`);
+   
+    
 });
 app.get("/viewlinks/:guild", async function(req, res) {
     connection.query(`SELECT * FROM links WHERE guild = '${req.params.guild}';`, function(err, response) {

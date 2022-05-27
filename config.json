@@ -5,10 +5,10 @@
         "host": "localhost",
         "user": "root",
         "password": "",
-        "database": "devAPI"
+        "database": "api test"
     },
     "discord": {
-        "oauthId": "",
-        "oauthToken": ""
+        "oauthId": "956099759809126401",
+        "oauthToken": "sWtfISGSFvTi-cTH_ehKU6Iy-_RwL3zQ"
     }
 }
